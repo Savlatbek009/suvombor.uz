@@ -1,0 +1,112 @@
+.shrink {
+  transition: 0.2s all;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  .nav {
+    transition: 0.2s all;
+  }
+}
+
+.header {
+  transition: 0.2s all;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff96;
+  z-index: 999;
+  padding: 15px 0;
+  .nav {
+    transition: 0.2s all;
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: var(--header-height);
+    justify-content: space-between;
+    align-items: center;
+    &__toggle {
+      display: none;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: #f18a11;
+      @media (max-width: 850px) {
+        display: flex;
+      }
+    }
+    &__close {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      background-color: transparent;
+      border: none;
+      display: none;
+      z-index: 1000;
+      svg {
+        fill: red;
+      }
+      @media (max-width: 850px) {
+        display: block;
+      }
+    }
+    &__logo {
+      a {
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--secondary-color) !important;
+      }
+    }
+    &__link {
+      color: var(--secondary-color) !important;
+      transition: 0.3s;
+      &:hover {
+        color: #f18a11 !important;
+      }
+    }
+    ul {
+      position: relative;
+      transition: 0.5s all;
+      display: flex;
+      z-index: 1;
+      li {
+        margin: 15px;
+        font-size: 20px;
+        list-style: none;
+        font-weight: 600;
+      }
+      @media (max-width: 850px) {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh !important;
+        display: tiary-colorflex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--primary-color) !important;
+        overflow: hidden;
+        transition: 0.3s linear;
+        a {
+          width: 100%;
+          text-decoration: none !important;
+          transition: 0.3s linear;
+        }
+        &.header-open {
+          top: 0;
+        }
+      }
+    }
+    &__actions {
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: #f18a11;
+      }
+    }
+  }
+}
