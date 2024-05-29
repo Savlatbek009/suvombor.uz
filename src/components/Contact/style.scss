@@ -1,24 +1,28 @@
+#contact{
+    margin-top: 110px;
+}
 h3{
     text-align: center;
     
 }
 h1{
-    margin-block: 50px;
+    margin-block: 15px;
     text-align: center;
     text-transform: uppercase;
     color: #f18a11;
 }
 p{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
+
 form {
     text-align: center;
     
     input{
         padding: 15px 100px;
         margin-left: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         outline: none;
         border: 1.5px solid grey;
         border-radius: 5px;
@@ -32,8 +36,8 @@ form {
 }
 .contact__btn{
     text-align: center;
-    margin-bottom: 40px;
-        button{
+       .contact__btn{
+         button{
             transition: 0.5s all;
             background: #f18a11;
             border: none;
@@ -41,7 +45,6 @@ form {
             font-size: 20px;
             padding: 10px 20px;
             border-radius: 4px;
-            margin: 10px;
             cursor: pointer;
             &:hover {
             color:#f18a11;
@@ -57,4 +60,5 @@ form {
                 text-align: center;
             }
         }
+       }
     }

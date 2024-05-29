@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="conatiner">
-        <h3>Boshlanish</h3>
+        <h3>Bog`lanish</h3>
         <h1>
           Bizning xizmatlarimizdan <br /> foydalaning!
         </h1>
@@ -28,7 +28,18 @@ const Contact = () => {
             <input type="text" id="fname" name="fname" placeholder="Manzil*" />
           </form>
           <div className="contact__btn">
-            <button>Jo`natish</button>
+            <button
+              style={{
+                background: "#f18a11",
+                border: "none",
+                color: "#fff",
+                padding: "10px 10px",
+                borderRadius: "4px",
+                marginBlock: "20px",
+                cursor: "pointer",
+              }}>
+              Jo`natish
+            </button>
           </div>
         </div>
       </div>

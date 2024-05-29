@@ -22,7 +22,18 @@ const Service = () => {
                 obcaecati tempore.
               </p>
               <div>
-                <button>Buyurta berish</button>
+                <button
+                  style={{
+                    background: "#f18a11",
+                    border: "none",
+                    color: "#fff",
+                    padding: "10px 10px",
+                    borderRadius: "4px",
+                    marginBlock: "20px",
+                    cursor: "pointer",
+                  }}>
+                  Buyurta berish
+                </button>
               </div>
             </div>
           </div>
@@ -37,7 +48,18 @@ const Service = () => {
                 obcaecati tempore.
               </p>
               <div>
-                <button>Buyurta berish</button>
+                <button
+                  style={{
+                    background: "#f18a11",
+                    border: "none",
+                    color: "#fff",
+                    padding: "10px 10px",
+                    borderRadius: "4px",
+                    marginBlock: "20px",
+                    cursor: "pointer",
+                  }}>
+                  Buyurta berish
+                </button>
               </div>
             </div>
             <div>
@@ -61,7 +83,18 @@ const Service = () => {
                 obcaecati tempore.
               </p>
               <div>
-                <button>Buyurta berish</button>
+                <button
+                  style={{
+                    background: "#f18a11",
+                    border: "none",
+                    color: "#fff",
+                    padding: "10px 10px",
+                    borderRadius: "4px",
+                    marginBlock: "20px",
+                    cursor: "pointer",
+                  }}>
+                  Buyurta berish
+                </button>
               </div>
             </div>
           </div>
