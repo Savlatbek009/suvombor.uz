@@ -1,0 +1,21 @@
+.carausel__total {
+  margin-top: 80px;
+  display: flex;
+  gap: 20px;
+}
+.carausel__total .photos__card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 30px;
+}
+@media (max-width: 790px) {
+  .carausel__total {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .carausel__total .photos__card {
+    margin-inline: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */
