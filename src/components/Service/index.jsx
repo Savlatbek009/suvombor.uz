@@ -31,7 +31,8 @@ const Service = () => {
                     borderRadius: "4px",
                     marginBlock: "20px",
                     cursor: "pointer",
-                  }}>
+                  }}
+                >
                   Buyurta berish
                 </button>
               </div>
@@ -39,6 +40,12 @@ const Service = () => {
           </div>
 
           <div className="service__card">
+            <div>
+              <img
+                src="https://attraktsiony.uz/wp-content/uploads/2019/11/12.jpg"
+                alt=""
+              />
+            </div>
             <div>
               <h2>Atraksionlar</h2>
               <p>
@@ -57,16 +64,11 @@ const Service = () => {
                     borderRadius: "4px",
                     marginBlock: "20px",
                     cursor: "pointer",
-                  }}>
+                  }}
+                >
                   Buyurta berish
                 </button>
               </div>
-            </div>
-            <div>
-              <img
-                src="https://attraktsiony.uz/wp-content/uploads/2019/11/12.jpg"
-                alt=""
-              />
             </div>
           </div>
 
@@ -92,7 +94,8 @@ const Service = () => {
                     borderRadius: "4px",
                     marginBlock: "20px",
                     cursor: "pointer",
-                  }}>
+                  }}
+                >
                   Buyurta berish
                 </button>
               </div>
