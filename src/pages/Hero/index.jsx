@@ -23,15 +23,17 @@ const Hero = () => {
                   top: 600,
                   behavior: "smooth",
                 });
-              }}>
+              }}
+            >
               <MdKeyboardDoubleArrowDown />
             </h1>
           </center>
         </div>
       </section>
-      <Service />
-      <Photos />
       <About />
+      <Photos />
+
+      <Service />
       <Contact />
     </>
   );

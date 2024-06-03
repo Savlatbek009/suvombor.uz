@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   align-items: center;
+  background-attachment: fixed;
   @media (max-width: 850px) {
     background-size: cover;
     background-position: left;

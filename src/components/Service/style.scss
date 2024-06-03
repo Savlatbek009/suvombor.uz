@@ -1,16 +1,26 @@
 #service {
   margin-top: 100px;
   h1 {
-    margin-bottom: 50px;
+    margin-top: 40px;
     text-align: center;
+    font-size: 43px;
+    margin-bottom: 20px;
     color: #f18a11;
+    text-transform: uppercase;
   }
   .service__total {
     .service__card {
-      margin-top: 50px;
+      margin-top: 10px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 40px;
+      div {
+        width: 50%;
+        @media (max-width: 740px) {
+          width: 100%;
+        }
+      }
       &:nth-of-type(2) {
         flex-direction: row-reverse;
         @media (max-width: 740px) {
@@ -18,17 +28,17 @@
         }
       }
       img {
-        max-width: 100%;
         border-radius: 20px;
-        width: 500px;
+        width: 100%;
       }
       h2 {
         margin-bottom: 20px;
+        font-size: 43px;
+        color: #f18a11;
       }
       p {
         text-align: start;
         max-width: 500px;
-        margin-bottom: 40px;
       }
       .service__btn {
         text-align: center;
