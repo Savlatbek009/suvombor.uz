@@ -1,0 +1,53 @@
+#xizmatlar {
+  h1:first-child {
+    font-size: 43px;
+    color: #f18a11;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  .carausel__total {
+    margin-top: 10px;
+    .card-reverse {
+      flex-direction: row-reverse;
+    }
+    .photos__card {
+      width: 100% !important;
+      display: flex;
+      column-gap: 30px;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      img {
+        width: 50% !important;
+        margin-top: 10px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      div {
+        width: 50%;
+      }
+    }
+    @media (max-width: 790px) {
+      text-align: center;
+      flex-wrap: wrap;
+      .photos__card {
+        width: 100% !important;
+        display: block;
+        img {
+          width: 100% !important;
+        }
+        h1 {
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+        p {
+          margin-bottom: 10px;
+        }
+        div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
