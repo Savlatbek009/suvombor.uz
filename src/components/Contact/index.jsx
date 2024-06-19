@@ -1,6 +1,6 @@
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
-import InputMask from "react-input-mask";
+// import InputMask from "react-input-mask";
 
 import "./style.scss";
 
