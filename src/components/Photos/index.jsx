@@ -33,13 +33,13 @@ const Photos = () => {
           </div>
           <div className="photos__card">
             <img
-              src="/public/atrakseonlar.jpg"
+              src="/atrakseonlar.jpg"
               alt=""
             />
             <div>
               <h1>Atraksionlar</h1>
               <p>
-                Bizda turli xil atrakseonlar mavjud bo'lib siz istagan turidan foydalanishingiz mumkin
+                Bizda turli xil atrakseonlar mavjud bo`lib siz istagan turidan foydalanishingiz mumkin
               </p>
             </div>
           </div>
